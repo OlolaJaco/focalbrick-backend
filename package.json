@@ -6,9 +6,15 @@
 	"author": "",
 	"type": "module",
 	"main": "server.js",
+	"engines": {
+		"node": ">=18.0.0",
+		"npm": ">=8.0.0"
+	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "node server.js"
+		"dev": "node server.js",
+		"start": "node server.js",
+		"build": "echo 'No build step required for this Node.js application'"
 	},
 	"dependencies": {
 		"bcryptjs": "^3.0.2",
